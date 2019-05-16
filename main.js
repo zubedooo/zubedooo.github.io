@@ -74,7 +74,7 @@ module.exports = "td {\r\n    background: lightyellow;\r\n    padding: 5px;\r\n}
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1> {{title}} </h1>\n<input type=\"text\" #newTodo/>\n<button (click)=\"addTodo(newTodo.value);newTodo.value=''\">Add Todo</button>\n<table>\n  <tr>\n    <th>My To Do List</th>\n  </tr>\n  <tr *ngFor=\"let todo of todos\">\n    <td>{{todo.label}}</td>\n    <td>\n      <button (click)=\"deleteTodo(todo)\">delete</button>\n    </td>\n  </tr>\n</table>"
+module.exports = "<h1> {{hehe}} </h1>\n<input type=\"text\" #newTodo/>\n<button (click)=\"addTodo(newTodo.value);newTodo.value=''\">Add Todo</button>\n<table>\n  <tr>\n    <th>My To Do List</th>\n  </tr>\n  <tr *ngFor=\"let todo of todos\">\n    <td>{{todo.label}}</td>\n    <td>\n      <button (click)=\"deleteTodo(todo)\">delete</button>\n    </td>\n  </tr>\n</table>"
 
 /***/ }),
 
