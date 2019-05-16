@@ -94,7 +94,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.title = 'A To Do Application by Zubin, Daniel and Zaid';
+        this.title = 'To Do Application';
         this.todos = [];
     }
     AppComponent.prototype.addTodo = function (newTodoLabel) {
